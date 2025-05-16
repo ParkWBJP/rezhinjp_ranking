@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import time
+import shutil
 
 URL = "https://comic.k-manga.jp/rank/"
 HEADERS = {
@@ -50,4 +51,11 @@ with open("kmanga_ranking.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 print(json.dumps(data, ensure_ascii=False, indent=2))
 
-print("[완료] kmanga_ranking.json 저장됨") 
+print("[완료] kmanga_ranking.json 저장됨")
+
+# 크롤링 결과를 frontend/public 폴더로 자동 복사
+try:
+    shutil.copy("kmanga_ranking.json", "frontend/public/kmanga_ranking.json")
+    print("✅ 최신 kmanga_ranking.json이 frontend/public 폴더로 복사되었습니다.")
+except Exception as e:
+    print(f"⚠️ public 폴더 복사 중 에러: {e}") 

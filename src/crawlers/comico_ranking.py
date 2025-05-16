@@ -6,6 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import json
+import shutil
 
 URL = "https://www.comico.jp/menu/all_comic/ranking"
 BASE_URL = "https://www.comico.jp"
@@ -39,11 +40,14 @@ try:
     with open(HTML_PATH, "r", encoding="utf-8") as f:
         html = f.read()
     soup = BeautifulSoup(html, "html.parser")
-    items = soup.select('a[href^="/comic/"]')
-    print(f"items 개수: {len(items)}")
-    if not items:
+    ranking_items = soup.select('li[data-v-fd22c8bb]')  # 랭킹 리스트의 li만 한정
+    print(f"ranking_items 개수: {len(ranking_items)}")
+    if not ranking_items:
         print("⚠️ 데이터 없음")
-    for idx, a_tag in enumerate(items[:20], 1):
+    for idx, li in enumerate(ranking_items[:20], 1):
+        a_tag = li.select_one('a[href^="/comic/"]')
+        if not a_tag:
+            continue
         # url
         url = a_tag.get("href", "")
         if url and not url.startswith("http"):
@@ -60,16 +64,16 @@ try:
             title = title_tag.text.strip()
         elif img_tag and img_tag.has_attr("alt"):
             title = img_tag["alt"].strip()
-        # genre (여러 개일 수 있음)
+        # genre
         genre = ""
-        genre_tags = a_tag.select(".txt-sub, .txt-sub span")
-        if genre_tags:
-            genre = ", ".join([g.text.strip() for g in genre_tags if g.text.strip()])
-        # author (여러 개일 수 있음)
+        genre_tag = a_tag.select_one(".txt-sub")
+        if genre_tag:
+            genre = genre_tag.text.strip()
+        # author
         author = ""
-        author_tags = a_tag.select(".txt-sub2, .txt-sub2 span")
-        if author_tags:
-            author = ", ".join([a.text.strip() for a in author_tags if a.text.strip()])
+        author_tag = a_tag.select_one(".txt-sub2")
+        if author_tag:
+            author = author_tag.text.strip()
         print(f"{idx}: rank={idx}, title={title}, author={author}, genre={genre}, thumbnail={thumbnail}, url={url}")
         data.append({
             "rank": idx,
@@ -87,3 +91,10 @@ print(json.dumps(data, ensure_ascii=False, indent=2))
 # 추출 데이터 JSON 파일로 저장
 with open("comico_ranking.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2) 
+
+# 크롤링 결과를 frontend/public 폴더로 자동 복사
+try:
+    shutil.copy("comico_ranking.json", "frontend/public/comico_ranking.json")
+    print("✅ 최신 comico_ranking.json이 frontend/public 폴더로 복사되었습니다.")
+except Exception as e:
+    print(f"⚠️ public 폴더 복사 중 에러: {e}") 
