@@ -23,15 +23,16 @@ interface PlatformData {
 }
 
 const platformList: PlatformData[] = [
-  { name: "メチャコミック", code: "mecha", rankings: [] },
-  { name: "コミックシーモア", code: "cmoa", rankings: [] },
-  { name: "レンタ", code: "renta", rankings: [] },
-  { name: "トップトゥーンJP", code: "toptoon", rankings: [] },
-  { name: "レジンJP", code: "lezhin", rankings: [] },
+  { name: "Mecha Comic", code: "mecha", rankings: [] },
+  { name: "Comic Cmoa", code: "cmoa", rankings: [] },
+  { name: "Renta", code: "renta", rankings: [] },
+  { name: "TopToon JP", code: "toptoon", rankings: [] },
+  { name: "Lezhin JP", code: "lezhin", rankings: [] },
   { name: "DMM Books", code: "dmm", rankings: [] },
-  { name: "コミコ", code: "comico", rankings: [] },
-  { name: "漫画王国", code: "kmanga", rankings: [] },
+  { name: "Comico", code: "comico", rankings: [] },
+  { name: "KManga", code: "kmanga", rankings: [] },
   { name: "BookLive", code: "booklive", rankings: [] },
+  { name: "Magapoke", code: "magapoke", rankings: [] },
 ];
 
 // 20위까지 샘플 데이터 생성
@@ -133,6 +134,7 @@ const Dashboard: React.FC = () => {
   const [comicoData, setComicoData] = useState<RankingData[] | null>(null);
   const [kmangaData, setKmangaData] = useState<RankingData[] | null>(null);
   const [bookliveData, setBookliveData] = useState<RankingData[] | null>(null);
+  const [magapokeData, setMagapokeData] = useState<RankingData[] | null>(null);
   const t = langText[language];
 
   useEffect(() => {
@@ -230,6 +232,18 @@ const Dashboard: React.FC = () => {
         ))
         .catch(() => setBookliveData(null));
     }
+    if (selectedPlatform === 'magapoke' || selectedPlatform === 'all') {
+      fetch('/magapoke_ranking.json')
+        .then(res => res.json())
+        .then(data => setMagapokeData(
+          data.map((item: RankingData, idx: number) => ({
+            ...item,
+            rank: idx + 1,
+            url: item.url || '#',
+          }))
+        ))
+        .catch(() => setMagapokeData(null));
+    }
   }, [selectedPlatform]);
 
   const handlePlatform = (code: string) => {
@@ -247,6 +261,7 @@ const Dashboard: React.FC = () => {
     if (p.code === 'comico' && comicoData) return { ...p, rankings: comicoData };
     if (p.code === 'kmanga' && kmangaData) return { ...p, rankings: kmangaData };
     if (p.code === 'booklive' && bookliveData) return { ...p, rankings: bookliveData };
+    if (p.code === 'magapoke' && magapokeData) return { ...p, rankings: magapokeData };
     return p;
   });
 
