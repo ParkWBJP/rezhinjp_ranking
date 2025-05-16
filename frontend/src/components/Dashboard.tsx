@@ -159,7 +159,7 @@ const Dashboard: React.FC = () => {
       fetch('/lezhin_sample.json')
         .then(res => res.json())
         .then(data => setLezhinData(
-          data.map((item, idx) => ({
+          data.map((item: RankingData, idx: number) => ({
             ...item,
             rank: idx + 1,
             author: item.author || item.artist || '',
@@ -172,7 +172,7 @@ const Dashboard: React.FC = () => {
       fetch('/toptoon_sample.json')
         .then(res => res.json())
         .then(data => setToptoonData(
-          data.map((item, idx) => ({
+          data.map((item: RankingData, idx: number) => ({
             ...item,
             rank: idx + 1,
             url: item.url || '#',
@@ -184,7 +184,7 @@ const Dashboard: React.FC = () => {
       fetch('/dmm_sample.json')
         .then(res => res.json())
         .then(data => setDmmData(
-          data.map((item, idx) => ({
+          data.map((item: RankingData, idx: number) => ({
             ...item,
             rank: idx + 1,
             url: item.url || '#',
@@ -199,7 +199,7 @@ const Dashboard: React.FC = () => {
       fetch('/comico_ranking.json')
         .then(res => res.json())
         .then(data => setComicoData(
-          data.map((item, idx) => ({
+          data.map((item: RankingData, idx: number) => ({
             ...item,
             rank: idx + 1,
             url: item.url || '#',
@@ -211,7 +211,7 @@ const Dashboard: React.FC = () => {
       fetch('/kmanga_ranking.json')
         .then(res => res.json())
         .then(data => setKmangaData(
-          data.map((item, idx) => ({
+          data.map((item: RankingData, idx: number) => ({
             ...item,
             rank: idx + 1,
             url: item.url || '#',
@@ -223,7 +223,7 @@ const Dashboard: React.FC = () => {
       fetch('/booklive_ranking.json')
         .then(res => res.json())
         .then(data => setBookliveData(
-          data.map((item, idx) => ({
+          data.map((item: RankingData, idx: number) => ({
             ...item,
             rank: idx + 1,
             url: item.url || '#',
