@@ -162,8 +162,8 @@ const Dashboard: React.FC = () => {
           data.map((item: RankingData, idx: number) => ({
             ...item,
             rank: idx + 1,
-            author: item.author || item.artist || '',
-            url: item.url || item.landing_url || '#',
+            author: item.author || '',
+            url: item.url || '#',
           }))
         ))
         .catch(() => setLezhinData(null));
@@ -188,9 +188,9 @@ const Dashboard: React.FC = () => {
             ...item,
             rank: idx + 1,
             url: item.url || '#',
-            genre: item.genres ? item.genres.join(', ') : '',
-            rating: item.rating ? parseFloat(item.rating) : undefined,
-            rating_count: item.review_count ? parseInt(item.review_count) : undefined,
+            genre: item.genre,
+            rating: item.rating,
+            rating_count: item.review_count,
           }))
         ))
         .catch(() => setDmmData(null));
