@@ -1,14 +1,5 @@
 [
     {
-        "title": "お隣さんのガチャガチャライフ 【試し読み】",
-        "thumbnail": "https://placehold.co/120x160?text=No+Image",
-        "landing_url": "https://www.lezhin.jp/ja/comic/gacha_girl_intro",
-        "artist": "HIP, MalGwang",
-        "genre": "ロマンス",
-        "free_count": "1話無料",
-        "platform": "Lezhin"
-    },
-    {
         "title": "ガードの固い女子は学科トップのマゾ変態!? 【試し読み】",
         "thumbnail": "https://placehold.co/120x160?text=No+Image",
         "landing_url": "https://www.lezhin.jp/ja/comic/ironmaso_intro",
@@ -18,82 +9,19 @@
         "platform": "Lezhin"
     },
     {
-        "title": "キミの恋について",
+        "title": "お隣さんのガチャガチャライフ 【試し読み】",
         "thumbnail": "https://placehold.co/120x160?text=No+Image",
-        "landing_url": "https://www.lezhin.jp/ja/comic/kiminokoinitsuite",
-        "artist": "Nodeok, comico",
-        "genre": "BL",
-        "free_count": "7話無料",
-        "platform": "Lezhin"
-    },
-    {
-        "title": "性長無限大！俺のレベルアップ計画 【試し読み】",
-        "thumbnail": "https://placehold.co/120x160?text=No+Image",
-        "landing_url": "https://www.lezhin.jp/ja/comic/level_up_until_satisfy_intro",
-        "artist": "chakanidea, guanamule",
+        "landing_url": "https://www.lezhin.jp/ja/comic/gacha_girl_intro",
+        "artist": "HIP, MalGwang",
         "genre": "ロマンス",
         "free_count": "1話無料",
         "platform": "Lezhin"
     },
     {
-        "title": "リバース・タイム〜継母の記憶〜 【試し読み】",
-        "thumbnail": "https://placehold.co/120x160?text=No+Image",
-        "landing_url": "https://www.lezhin.jp/ja/comic/stepmother_intro",
-        "artist": "Izanagi, ppinut",
-        "genre": "ロマンス",
-        "free_count": "1話無料",
-        "platform": "Lezhin"
-    },
-    {
-        "title": "紙の花",
-        "thumbnail": "https://placehold.co/120x160?text=No+Image",
-        "landing_url": "https://www.lezhin.jp/ja/comic/kaminohana",
-        "artist": "RANHAN, VanG, Toyou's Dream",
-        "genre": "BL",
-        "free_count": "6話無料",
-        "platform": "Lezhin"
-    },
-    {
-        "title": "最強恋愛アプリ〜あの子をイかせる方法は!?〜 【試し読み】",
-        "thumbnail": "https://placehold.co/120x160?text=No+Image",
-        "landing_url": "https://www.lezhin.jp/ja/comic/wise_application_life_intro",
-        "artist": "MOTGINI, yageudon",
-        "genre": "ロマンス",
-        "free_count": "1話無料",
-        "platform": "Lezhin"
-    },
-    {
-        "title": "Up心の奥を覗かせて",
+        "title": "心の奥を覗かせて",
         "thumbnail": "https://placehold.co/120x160?text=No+Image",
         "landing_url": "https://www.lezhin.jp/ja/comic/kokorookukikasete",
         "artist": "Paskim, Rush!, Blue&",
-        "genre": "BL",
-        "free_count": "1話無料",
-        "platform": "Lezhin"
-    },
-    {
-        "title": "キャンペーンMAD DOG：マッド・ドッグ",
-        "thumbnail": "https://placehold.co/120x160?text=No+Image",
-        "landing_url": "https://www.lezhin.jp/ja/comic/mad_dog",
-        "artist": "ハリボ",
-        "genre": "BL",
-        "free_count": "11話無料",
-        "platform": "Lezhin"
-    },
-    {
-        "title": "留年生〜1年間の空白〜",
-        "thumbnail": "https://placehold.co/120x160?text=No+Image",
-        "landing_url": "https://www.lezhin.jp/ja/comic/return",
-        "artist": "error",
-        "genre": "BL",
-        "free_count": "3話無料",
-        "platform": "Lezhin"
-    },
-    {
-        "title": "ロイヤルウェディング【完全版】",
-        "thumbnail": "https://placehold.co/120x160?text=No+Image",
-        "landing_url": "https://www.lezhin.jp/ja/comic/royalwedding",
-        "artist": "Bamilssi, zaru, NETCOMICS",
         "genre": "BL",
         "free_count": "1話無料",
         "platform": "Lezhin"
@@ -108,30 +36,39 @@
         "platform": "Lezhin"
     },
     {
-        "title": "５番地の下宿",
+        "title": "最強恋愛アプリ〜あの子をイかせる方法は!?〜 【試し読み】",
         "thumbnail": "https://placehold.co/120x160?text=No+Image",
-        "landing_url": "https://www.lezhin.jp/ja/comic/gesyuku_5",
-        "artist": "ペンギン",
-        "genre": "BL",
+        "landing_url": "https://www.lezhin.jp/ja/comic/wise_application_life_intro",
+        "artist": "MOTGINI, yageudon",
+        "genre": "ロマンス",
         "free_count": "1話無料",
         "platform": "Lezhin"
     },
     {
-        "title": "休載不滅の日々",
+        "title": "リバース・タイム〜継母の記憶〜 【試し読み】",
         "thumbnail": "https://placehold.co/120x160?text=No+Image",
-        "landing_url": "https://www.lezhin.jp/ja/comic/ImmortalDays",
-        "artist": "コナガイヌ",
-        "genre": "アクション",
-        "free_count": "5話無料",
+        "landing_url": "https://www.lezhin.jp/ja/comic/stepmother_intro",
+        "artist": "Izanagi, ppinut",
+        "genre": "ロマンス",
+        "free_count": "1話無料",
         "platform": "Lezhin"
     },
     {
-        "title": "僕の友達がイケメンすぎて無理",
+        "title": "性長無限大！俺のレベルアップ計画 【試し読み】",
         "thumbnail": "https://placehold.co/120x160?text=No+Image",
-        "landing_url": "https://www.lezhin.jp/ja/comic/bokutomoikemen",
-        "artist": "chandeok, comico, comico",
+        "landing_url": "https://www.lezhin.jp/ja/comic/level_up_until_satisfy_intro",
+        "artist": "chakanidea, guanamule",
+        "genre": "ロマンス",
+        "free_count": "1話無料",
+        "platform": "Lezhin"
+    },
+    {
+        "title": "紙の花",
+        "thumbnail": "https://placehold.co/120x160?text=No+Image",
+        "landing_url": "https://www.lezhin.jp/ja/comic/kaminohana",
+        "artist": "RANHAN, VanG, Toyou's Dream",
         "genre": "BL",
-        "free_count": "3話無料",
+        "free_count": "6話無料",
         "platform": "Lezhin"
     },
     {
@@ -144,39 +81,102 @@
         "platform": "Lezhin"
     },
     {
-        "title": "玄雲蒼天～呪いの地に咲く花～",
+        "title": "Wet Sand(完全版)【連載】",
         "thumbnail": "https://placehold.co/120x160?text=No+Image",
-        "landing_url": "https://www.lezhin.jp/ja/comic/genunsouten",
-        "artist": "Yeon",
-        "genre": "BL",
-        "free_count": "1話無料",
-        "platform": "Lezhin"
-    },
-    {
-        "title": "Wet Sand【連載】",
-        "thumbnail": "https://placehold.co/120x160?text=No+Image",
-        "landing_url": "https://www.lezhin.jp/ja/comic/wetnamorae",
+        "landing_url": "https://www.lezhin.jp/ja/comic/wetnamorae_r18",
         "artist": "DOYAK, Do7 Entertainment",
         "genre": "BL",
         "free_count": "2話無料",
         "platform": "Lezhin"
     },
     {
-        "title": "満月の錬金術師",
+        "title": "留年生〜1年間の空白〜",
         "thumbnail": "https://placehold.co/120x160?text=No+Image",
-        "landing_url": "https://www.lezhin.jp/ja/comic/mangetsurenkinzyutsushi",
-        "artist": "coin ring, JeongChan, ZAL, NETCOMICS",
+        "landing_url": "https://www.lezhin.jp/ja/comic/return",
+        "artist": "error",
         "genre": "BL",
         "free_count": "3話無料",
         "platform": "Lezhin"
     },
     {
-        "title": "エルフさんは痩せられない。【フルカラー縦スクロール版】",
+        "title": "嘘から出たマコト!?〜俺は冗談じゃなくてマジなんだ〜",
         "thumbnail": "https://placehold.co/120x160?text=No+Image",
-        "landing_url": "https://www.lezhin.jp/ja/comic/elfyaserarennaiyo",
-        "artist": "シネクドキ, シャインパートナーズ",
+        "landing_url": "https://www.lezhin.jp/ja/comic/makoto",
+        "artist": "DOBEOT",
+        "genre": "BL",
+        "free_count": "1話無料",
+        "platform": "Lezhin"
+    },
+    {
+        "title": "キミを探す波：たまのお世話してよ",
+        "thumbnail": "https://placehold.co/120x160?text=No+Image",
+        "landing_url": "https://www.lezhin.jp/ja/comic/dewdrop",
+        "artist": "Cheongyeon",
+        "genre": "BL",
+        "free_count": "1話無料",
+        "platform": "Lezhin"
+    },
+    {
+        "title": "青い夏の先に、",
+        "thumbnail": "https://placehold.co/120x160?text=No+Image",
+        "landing_url": "https://www.lezhin.jp/ja/comic/aoinatsunosakini_p",
+        "artist": "Minggur, Zeolgu, Iiromill, Rush!, Blue&",
+        "genre": "BL",
+        "free_count": "3話無料",
+        "platform": "Lezhin"
+    },
+    {
+        "title": "哀悼する君へ",
+        "thumbnail": "https://placehold.co/120x160?text=No+Image",
+        "landing_url": "https://www.lezhin.jp/ja/comic/aitousurukimie",
+        "artist": "49, DYULANG, REDICE STUDIO, whiteapril, 株式会社リバース",
+        "genre": "BL",
+        "free_count": "3話無料",
+        "platform": "Lezhin"
+    },
+    {
+        "title": "Up2度目の処刑はお断りです【連載】",
+        "thumbnail": "https://placehold.co/120x160?text=No+Image",
+        "landing_url": "https://www.lezhin.jp/ja/comic/2shokei",
+        "artist": "バルサミ子, SORAJIMA, comico, comico",
+        "genre": "ロマンス",
+        "free_count": "50話無料",
+        "platform": "Lezhin"
+    },
+    {
+        "title": "恋スル少年",
+        "thumbnail": "https://placehold.co/120x160?text=No+Image",
+        "landing_url": "https://www.lezhin.jp/ja/comic/koisurusyounen_p",
+        "artist": "ZEC, Rush!, Blue&",
+        "genre": "BL",
+        "free_count": "1話無料",
+        "platform": "Lezhin"
+    },
+    {
+        "title": "牡丹香【タテヨミ】",
+        "thumbnail": "https://placehold.co/120x160?text=No+Image",
+        "landing_url": "https://www.lezhin.jp/ja/comic/mokdanhyang",
+        "artist": "Shin Yuri, Winterbaum, Rush!, Blue&",
+        "genre": "BL",
+        "free_count": "3話無料",
+        "platform": "Lezhin"
+    },
+    {
+        "title": "鬼畜英雄【単話版】",
+        "thumbnail": "https://placehold.co/120x160?text=No+Image",
+        "landing_url": "https://www.lezhin.jp/ja/comic/t5_1309176",
+        "artist": "よのき, GANMA!",
         "genre": "少年・青年",
-        "free_count": "7話無料",
+        "free_count": "1話無料",
+        "platform": "Lezhin"
+    },
+    {
+        "title": "ルシア【連載】",
+        "thumbnail": "https://placehold.co/120x160?text=No+Image",
+        "landing_url": "https://www.lezhin.jp/ja/comic/lucia",
+        "artist": "Skye, TARUVI, Kidari Studio, Kidari Studio",
+        "genre": "ロマンス",
+        "free_count": "3話無料",
         "platform": "Lezhin"
     }
 ]

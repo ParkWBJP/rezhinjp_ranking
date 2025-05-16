@@ -18,21 +18,21 @@
     "genres": []
   },
   {
-    "title": "シャングリラ・フロンティア",
-    "thumbnail": "https://ebook-assets.dmm.com/digital/e-book/b900wkds00336/b900wkds00336ps.jpg",
-    "author": "硬梨菜",
-    "url": "https://book.dmm.com/product/4028935/b900wkds00336/",
-    "rating": "4.15",
-    "review_count": "46",
-    "genres": []
-  },
-  {
     "title": "お気楽領主の楽しい領地防衛",
     "thumbnail": "https://ebook-assets.dmm.com/digital/e-book/b653aovrp01417/b653aovrp01417ps.jpg",
     "author": "青色まろ",
     "url": "https://book.dmm.com/product/4159894/b653aovrp01417/",
     "rating": "4.71",
     "review_count": "21",
+    "genres": []
+  },
+  {
+    "title": "シャングリラ・フロンティア",
+    "thumbnail": "https://ebook-assets.dmm.com/digital/e-book/b900wkds00336/b900wkds00336ps.jpg",
+    "author": "硬梨菜",
+    "url": "https://book.dmm.com/product/4028935/b900wkds00336/",
+    "rating": "4.15",
+    "review_count": "46",
     "genres": []
   },
   {
@@ -81,21 +81,21 @@
     "genres": []
   },
   {
-    "title": "アオアシ",
-    "thumbnail": "https://ebook-assets.dmm.com/digital/e-book/b600psgk04472/b600psgk04472ps.jpg",
-    "author": "小林有吾",
-    "url": "https://book.dmm.com/product/560654/b600psgk04472/",
-    "rating": "4.44",
-    "review_count": "45",
-    "genres": []
-  },
-  {
     "title": "不老不死少女の苗床旅行記",
     "thumbnail": "https://ebook-assets.dmm.com/digital/e-book/b000ehftx31438/b000ehftx31438ps.jpg",
     "author": "ふじはん",
     "url": "https://book.dmm.com/product/4464240/b000ehftx31438/",
     "rating": "4.56",
     "review_count": "25",
+    "genres": []
+  },
+  {
+    "title": "アオアシ",
+    "thumbnail": "https://ebook-assets.dmm.com/digital/e-book/b600psgk04472/b600psgk04472ps.jpg",
+    "author": "小林有吾",
+    "url": "https://book.dmm.com/product/560654/b600psgk04472/",
+    "rating": "4.44",
+    "review_count": "45",
     "genres": []
   },
   {
@@ -135,30 +135,21 @@
     "genres": []
   },
   {
-    "title": "辺境の老騎士 バルド・ローエン",
-    "thumbnail": "https://ebook-assets.dmm.com/digital/e-book/b900qkds02137/b900qkds02137ps.jpg",
-    "author": "支援BIS",
-    "url": "https://book.dmm.com/product/717115/b900qkds02137/",
-    "rating": "4.57",
-    "review_count": "28",
-    "genres": []
-  },
-  {
-    "title": "勘違いの工房主 英雄パーティの元雑用係が、実は戦闘以外がSSSランクだったというよくある話",
-    "thumbnail": "https://ebook-assets.dmm.com/digital/e-book/b865auhdc03899/b865auhdc03899ps.jpg",
-    "author": "古川奈春",
-    "url": "https://book.dmm.com/product/4042782/b865auhdc03899/",
-    "rating": "3.71",
-    "review_count": "14",
-    "genres": []
-  },
-  {
     "title": "ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。",
     "thumbnail": "https://ebook-assets.dmm.com/digital/e-book/b999asqex04707/b999asqex04707ps.jpg",
     "author": "えぞぎんぎつね（GAノベル/SBクリエイティブ刊）",
     "url": "https://book.dmm.com/product/887791/b999asqex04707/",
     "rating": "3.68",
     "review_count": "19",
+    "genres": []
+  },
+  {
+    "title": "辺境の老騎士 バルド・ローエン",
+    "thumbnail": "https://ebook-assets.dmm.com/digital/e-book/b900qkds02137/b900qkds02137ps.jpg",
+    "author": "支援BIS",
+    "url": "https://book.dmm.com/product/717115/b900qkds02137/",
+    "rating": "4.57",
+    "review_count": "28",
     "genres": []
   },
   {
@@ -171,12 +162,21 @@
     "genres": []
   },
   {
-    "title": "貸した魔力は【リボ払い】で強制徴収〜用済みとパーティー追放された俺は、可愛いサポート妖精と一緒に取り立てた魔力を運用して最強を目指す。〜",
-    "thumbnail": "https://ebook-assets.dmm.com/digital/e-book/k371aflxc02102/k371aflxc02102ps.jpg",
-    "author": "飯島しんごう",
-    "url": "https://book.dmm.com/product/4363979/k371aflxc02102/",
-    "rating": "4",
-    "review_count": "3",
+    "title": "今泉ん家はどうやらギャルの溜まり場になってるらしい〜DEEP〜",
+    "thumbnail": "https://ebook-assets.dmm.com/digital/e-book/b330etksb09390/b330etksb09390ps.jpg",
+    "author": "のり伍郎",
+    "url": "https://book.dmm.com/product/4241995/b330etksb09390/",
+    "rating": "4.14",
+    "review_count": "7",
+    "genres": []
+  },
+  {
+    "title": "勘違いの工房主 英雄パーティの元雑用係が、実は戦闘以外がSSSランクだったというよくある話",
+    "thumbnail": "https://ebook-assets.dmm.com/digital/e-book/b865auhdc03899/b865auhdc03899ps.jpg",
+    "author": "古川奈春",
+    "url": "https://book.dmm.com/product/4042782/b865auhdc03899/",
+    "rating": "3.71",
+    "review_count": "14",
     "genres": []
   }
 ]
