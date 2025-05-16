@@ -158,11 +158,11 @@ const Dashboard: React.FC = () => {
       fetch('/lezhin_sample.json')
         .then(res => res.json())
         .then(data => setLezhinData(
-          data.map((item: RankingData, idx: number) => ({
+          data.map((item: any, idx: number) => ({
             ...item,
             rank: idx + 1,
-            author: item.author || '',
-            url: item.url || '#',
+            author: item.author ?? '',
+            url: item.url ?? '#',
           }))
         ))
         .catch(() => setLezhinData(null));
@@ -183,13 +183,13 @@ const Dashboard: React.FC = () => {
       fetch('/dmm_sample.json')
         .then(res => res.json())
         .then(data => setDmmData(
-          data.map((item: RankingData, idx: number) => ({
+          data.map((item: any, idx: number) => ({
             ...item,
             rank: idx + 1,
-            url: item.url || '#',
-            genre: item.genre,
-            rating: item.rating,
-            rating_count: item.review_count,
+            url: item.url ?? '#',
+            genre: item.genre ?? '',
+            rating: typeof item.rating === 'number' ? item.rating : undefined,
+            rating_count: typeof item.review_count === 'number' ? item.review_count : undefined,
           }))
         ))
         .catch(() => setDmmData(null));
